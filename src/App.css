@@ -1,0 +1,29 @@
+.card-container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
+    padding: 30px;
+    margin-top: 5em;
+    margin-bottom: 7em;
+}
+.loader{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader img{
+    width: 5em;
+}
+.NotFound{
+    margin-top: 20px;
+    font-size: 2.4rem;
+    color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NotFound strong{
+    color: rgb(244, 74, 36);
+}
+
